@@ -1,4 +1,4 @@
-const DiscordRPC = require('src/discord-rpc');
+const DiscordRPC = require('discord-rpc');
 
 class DiscordRichPresence {
     constructor(clientId) {
