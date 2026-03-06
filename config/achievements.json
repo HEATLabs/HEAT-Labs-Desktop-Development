@@ -1,0 +1,220 @@
+{
+  "achievements": [
+    {
+      "id": 1,
+      "steamApiName": "PLAYTIME_10_MINUTE",
+      "task": "Use HEAT Labs for 10 minutes",
+      "name": "H - First Steps",
+      "type": "playtime",
+      "requirement": 600
+    },
+    {
+      "id": 2,
+      "steamApiName": "PLAYTIME_30_MINUTE",
+      "task": "Use HEAT Labs for 30 minutes",
+      "name": "E - Getting Into It",
+      "type": "playtime",
+      "requirement": 1800
+    },
+    {
+      "id": 3,
+      "steamApiName": "PLAYTIME_01_HOUR",
+      "task": "Use HEAT Labs for 1 hour",
+      "name": "A - Settling In",
+      "type": "playtime",
+      "requirement": 3600
+    },
+    {
+      "id": 4,
+      "steamApiName": "PLAYTIME_02_HOUR",
+      "task": "Use HEAT Labs for 2 hours",
+      "name": "T - Dedicated Player",
+      "type": "playtime",
+      "requirement": 7200
+    },
+    {
+      "id": 5,
+      "steamApiName": "PLAYTIME_05_HOUR",
+      "task": "Use HEAT Labs for 5 hours",
+      "name": "L - Committed",
+      "type": "playtime",
+      "requirement": 18000
+    },
+    {
+      "id": 6,
+      "steamApiName": "PLAYTIME_10_HOUR",
+      "task": "Use HEAT Labs for 10 hours",
+      "name": "A - Veteran",
+      "type": "playtime",
+      "requirement": 36000
+    },
+    {
+      "id": 7,
+      "steamApiName": "PLAYTIME_25_HOUR",
+      "task": "Use HEAT Labs for 25 hours",
+      "name": "B - Hardcore",
+      "type": "playtime",
+      "requirement": 90000
+    },
+    {
+      "id": 8,
+      "steamApiName": "PLAYTIME_50_HOUR",
+      "task": "Use HEAT Labs for 50 hours",
+      "name": "S - Addicted",
+      "type": "playtime",
+      "requirement": 180000
+    },
+    {
+      "id": 9,
+      "steamApiName": "VISIT_TANK_STATISTICS",
+      "task": "Visit the Tank Statistics section",
+      "name": "Gear Head",
+      "type": "visitpage",
+      "requirement": "visit_tank_statistics"
+    },
+    {
+      "id": 10,
+      "steamApiName": "VISIT_PLAYER_STATISTICS",
+      "task": "Visit the Player Statistics section",
+      "name": "Scorekeeper",
+      "type": "visitpage",
+      "requirement": "visit_player_statistics"
+    },
+    {
+      "id": 11,
+      "steamApiName": "VISIT_MAP_KNOWLEDGE",
+      "task": "Visit the Map Knowledge section",
+      "name": "Cartographer",
+      "type": "visitpage",
+      "requirement": "visit_map_knowledge"
+    },
+    {
+      "id": 12,
+      "steamApiName": "VISIT_COMMUNITY_GUIDES",
+      "task": "Visit the Community Guides section",
+      "name": "Learner",
+      "type": "visitpage",
+      "requirement": "visit_community_guides"
+    },
+    {
+      "id": 13,
+      "steamApiName": "VISIT_COMMON_BUILDS",
+      "task": "Visit the Common Builds section",
+      "name": "Strategist",
+      "type": "visitpage",
+      "requirement": "visit_common_builds"
+    },
+    {
+      "id": 14,
+      "steamApiName": "VISIT_PLAYGROUND",
+      "task": "Visit the Playground section",
+      "name": "Experimenter",
+      "type": "visitpage",
+      "requirement": "visit_playground"
+    },
+    {
+      "id": 15,
+      "steamApiName": "VISIT_GAME_NEWS",
+      "task": "Visit the Game News section",
+      "name": "Newshound",
+      "type": "visitpage",
+      "requirement": "visit_game_news"
+    },
+    {
+      "id": 16,
+      "steamApiName": "VISIT_ASSET_GALLERY",
+      "task": "Visit the Asset Gallery section",
+      "name": "Collector",
+      "type": "visitpage",
+      "requirement": "visit_asset_gallery"
+    },
+    {
+      "id": 17,
+      "steamApiName": "VISIT_TOURNAMENTS",
+      "task": "Visit our Tournaments section",
+      "name": "Competitor",
+      "type": "visitpage",
+      "requirement": "visit_tournaments"
+    },
+    {
+      "id": 18,
+      "steamApiName": "VISIT_OFFICIAL_BLOG",
+      "task": "Visit the Official Blog section",
+      "name": "Insider",
+      "type": "visitpage",
+      "requirement": "visit_official_blog"
+    },
+    {
+      "id": 19,
+      "steamApiName": "VISIT_ABOUT_THE_PROJECT",
+      "task": "Visit the About the Project section",
+      "name": "Curious Mind",
+      "type": "visitpage",
+      "requirement": "visit_about_the_project"
+    },
+    {
+      "id": 20,
+      "steamApiName": "PLAYTIME_100_HOUR",
+      "task": "Use HEAT Labs for 100 hours",
+      "name": "S - Lifestyle Choice",
+      "type": "playtime",
+      "requirement": 360000
+    },
+    {
+      "id": 21,
+      "steamApiName": "PLAYTIME_250_HOUR",
+      "task": "Use HEAT Labs for 250 hours",
+      "name": "E - Please Go Outside",
+      "type": "playtime",
+      "requirement": 900000
+    },
+    {
+      "id": 22,
+      "steamApiName": "PLAYTIME_500_HOUR",
+      "task": "Use HEAT Labs for 500 hours",
+      "name": "E - This Is Concerning",
+      "type": "playtime",
+      "requirement": 1800000
+    },
+    {
+      "id": 23,
+      "steamApiName": "PLAYTIME_1000_HOUR",
+      "task": "Use HEAT Labs for 1000 hours",
+      "name": "K - Seek Professional Help",
+      "type": "playtime",
+      "requirement": 3600000
+    },
+    {
+      "id": 24,
+      "steamApiName": "PLAYTIME_2500_HOUR",
+      "task": "Use HEAT Labs for 2500 hours",
+      "name": "H - There Is No Escape",
+      "type": "playtime",
+      "requirement": 9000000
+    },
+    {
+      "id": 25,
+      "steamApiName": "PLAYTIME_5000_HOUR",
+      "task": "Use HEAT Labs for 5000 hours",
+      "name": "E - Touching Grass Is A Myth",
+      "type": "playtime",
+      "requirement": 18000000
+    },
+    {
+      "id": 26,
+      "steamApiName": "PLAYTIME_7500_HOUR",
+      "task": "Use HEAT Labs for 7500 hours",
+      "name": "L - You Live Here Now",
+      "type": "playtime",
+      "requirement": 27000000
+    },
+    {
+      "id": 27,
+      "steamApiName": "PLAYTIME_10000_HOUR",
+      "task": "Use HEAT Labs for 10000 hours",
+      "name": "P - Time Has Lost All Meaning",
+      "type": "playtime",
+      "requirement": 36000000
+    }
+  ]
+}
