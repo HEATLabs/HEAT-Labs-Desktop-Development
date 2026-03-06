@@ -1,21 +1,21 @@
 {
-  "name": "heatlabs-desktop",
+  "name": "heatlabs-desktop-playtest",
   "version": "1.0.0",
   "description": "One-stop solution for comprehensive statistics and insights in World of Tanks: HEAT",
-  "main": "../HEAT-Labs-Desktop/src/main.js",
-  "homepage": "https://heatlabs.net",
+  "main": "../HEAT-Labs-Desktop-Development/src/main.js",
+  "homepage": "https://dev.heatlabs.net",
   "scripts": {
-    "start": "../HEAT-Labs-Desktop/node_modules/.bin/electron .",
-    "dev": "../HEAT-Labs-Desktop/node_modules/.bin/electron . --dev",
-    "build": "../HEAT-Labs-Desktop/node_modules/.bin/electron-builder --config.asar=false",
-    "build-win": "../HEAT-Labs-Desktop/node_modules/.bin/electron-builder --win --config.asar=false",
-    "build-mac": "../HEAT-Labs-Desktop/node_modules/.bin/electron-builder --mac --config.asar=false",
-    "build-linux": "../HEAT-Labs-Desktop/node_modules/.bin/electron-builder --linux --config.asar=false",
-    "dist": "../HEAT-Labs-Desktop/node_modules/.bin/electron-builder --publish=never"
+    "start": "../HEAT-Labs-Desktop-Development/node_modules/.bin/electron .",
+    "dev": "../HEAT-Labs-Desktop-Development/node_modules/.bin/electron . --dev",
+    "build": "../HEAT-Labs-Desktop-Development/node_modules/.bin/electron-builder --config.asar=false",
+    "build-win": "../HEAT-Labs-Desktop-Development/node_modules/.bin/electron-builder --win --config.asar=false",
+    "build-mac": "../HEAT-Labs-Desktop-Development/node_modules/.bin/electron-builder --mac --config.asar=false",
+    "build-linux": "../HEAT-Labs-Desktop-Development/node_modules/.bin/electron-builder --linux --config.asar=false",
+    "dist": "../HEAT-Labs-Desktop-Development/node_modules/.bin/electron-builder --publish=never"
   },
   "build": {
-    "appId": "com.heatlabs.desktop",
-    "productName": "HEAT Labs Desktop",
+    "appId": "com.heatlabs.desktop.playtest",
+    "productName": "HEAT Labs Desktop Playtest",
     "directories": {
       "output": "dist"
     },

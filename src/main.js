@@ -45,7 +45,7 @@ function createWindow() {
     });
 
     // Load HEAT Labs
-    mainWindow.loadURL('https://heatlabs.net');
+    mainWindow.loadURL('https://dev.heatlabs.net');
 
     mainWindow.webContents.on('did-finish-load', () => {
         mainWindow.webContents.setZoomLevel(-0.2);
@@ -118,7 +118,7 @@ function createWindow() {
           bar.innerHTML = \`
             <img src="https://views.heatlabs.net/api/track/pcwstats-tracker-pixel-desktop-app.png" alt="HEAT Labs Tracking View Counter" style="position:absolute;width:1px;height:1px;opacity:0;pointer-events:none;" class="heatlabs-tracking-pixel" data-page="desktop-app">
             <div class="electron-title-bar-left">
-              <span class="electron-title-bar-title">HEAT Labs Desktop</span>
+              <span class="electron-title-bar-title">HEAT Labs Desktop Playtest</span>
             </div>
             <div class="electron-title-bar-controls">
               <button class="electron-title-bar-button minimize-btn" title="Minimize">
