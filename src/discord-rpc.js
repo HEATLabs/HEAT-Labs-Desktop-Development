@@ -48,10 +48,10 @@ class DiscordRichPresence {
         if (!this.connected) return;
 
         const presence = {
-            details: customDetails || 'Browsing HEAT Labs',
+            details: customDetails || 'Browsing HEAT Labs Playtest',
             startTimestamp: this.startTimestamp,
             largeImageKey: 'heatlabs_logo',
-            largeImageText: 'HEAT Labs Desktop',
+            largeImageText: 'HEAT Labs Desktop Playtest',
             smallImageKey: 'watching_icon',
             smallImageText: 'World of Tanks: HEAT',
             instance: false,
@@ -74,7 +74,7 @@ class DiscordRichPresence {
 
     updateWithPage(pageTitle) {
         // Clean the page title
-        const cleanTitle = pageTitle.replace(/ - HEAT Labs$/i, '').trim();
+        const cleanTitle = pageTitle.replace(/ - HEAT Labs(\s*\[[^]]+])?$/i, '').trim();
         this.updatePresence(`Viewing ${cleanTitle}`);
     }
 

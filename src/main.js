@@ -14,7 +14,7 @@ let discordRPC = null;
 let achievementManager = null;
 
 // Discord Application Client ID
-const DISCORD_CLIENT_ID = '1373472140279549963';
+const DISCORD_CLIENT_ID = '1479516643200602264';
 
 function createWindow() {
     // Load the title bar CSS file
@@ -116,7 +116,7 @@ function createWindow() {
           const bar = document.createElement('div');
           bar.className = 'electron-title-bar';
           bar.innerHTML = \`
-            <img src="https://views.heatlabs.net/api/track/pcwstats-tracker-pixel-desktop-app.png" alt="HEAT Labs Tracking View Counter" style="position:absolute;width:1px;height:1px;opacity:0;pointer-events:none;" class="heatlabs-tracking-pixel" data-page="desktop-app">
+            <img src="https://views.heatlabs.net/api/track/pcwstats-tracker-pixel-desktop-app-playtest.png" alt="HEAT Labs Tracking View Counter" style="position:absolute;width:1px;height:1px;opacity:0;pointer-events:none;" class="heatlabs-tracking-pixel" data-page="desktop-app-playtest">
             <div class="electron-title-bar-left">
               <span class="electron-title-bar-title">HEAT Labs Desktop Playtest</span>
             </div>
